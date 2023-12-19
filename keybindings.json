@@ -25,7 +25,7 @@
     },
     {
       "key": "ctrl+h",
-      "command": "workbench.action.navigateBack"
+      "command": "workbench.action.navigateEditorGroups"
     },
     // File tree navigation
     {
