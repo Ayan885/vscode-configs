@@ -1,0 +1,101 @@
+      "key": "ctrl+cmd+j",
+      "command": "workbench.action.moveEditorLeftInGroup"
+    },
+    {
+      "key": "ctrl+cmd+k",
+      "command": "workbench.action.moveEditorRightInGroup"
+    },
+    {
+        "key": "alt+enter",
+        "command": "code-runner.run"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-code-runner.run"
+    },
+    // Spliting the editor
+    {
+      "key": "ctrl+g",
+      "command": "workbench.action.splitEditorRight"
+    },
+    // Navigating groups
+    {
+      "key": "ctrl+l",
+      "command": "workbench.action.navigateEditorGroups"
+    },
+    {
+      "key": "ctrl+h",
+      "command": "workbench.action.navigateBack"
+    },
+    // File tree navigation
+    {
+        "command": "workbench.action.toggleSidebarVisibility",
+        "key": "ctrl+e"
+      },
+      {
+        "command": "workbench.files.action.focusFilesExplorer",
+        "key": "ctrl+e",
+        "when": "editorTextFocus"
+      },
+      {
+        "key": "n",
+        "command": "explorer.newFile",
+        "when": "filesExplorerFocus && !inputFocus"
+      },
+      {
+        "command": "renameFile",
+        "key": "r",
+        "when": "filesExplorerFocus && !inputFocus"
+      },
+      {
+        "key": "shift+n",
+        "command": "explorer.newFolder",
+        "when": "explorerViewletFocus"
+      },
+      {
+        "command": "deleteFile",
+        "key": "d",
+        "when": "filesExplorerFocus && !inputFocus"
+      },
+      {
+        "key": "ctrl+shift+n",
+        "command": "workbench.action.newWindow"
+      },
+      {
+        "key": "ctrl+shift+z",
+        "command": "workbench.action.toggleZenMode",
+        "when": "!isAuxiliaryWindowFocusedContext"
+      },
+      {
+        "key": "alt+shift+q",
+        "command": "workbench.action.exitZenMode",
+        "when": "inZenMode"
+      },
+      // Terminal
+      {
+        "key": "ctrl+enter",
+        "command": "workbench.action.terminal.toggleTerminal",
+      },
+      {
+        "key": "ctrl+enter",
+        "command": "-workbench.action.terminal.toggleTerminal",
+        "when": "terminal.active"
+      },
+      {
+        "key": "ctrl+shift+enter",
+        "command": "workbench.action.terminal.new"
+      },
+      {
+        "key": "ctrl+m",
+        "command": "workbench.action.terminal.moveToEditor"
+      },
+      {
+        "key": "ctrl+q",
+        "command": "workbench.action.closePanel"
+      },
+      {
+        "key": "ctrl+t",
+        "command": "terminal.focus"
+      }
+
+]
