@@ -1,0 +1,122 @@
+{
+    "workbench.colorTheme": "Everforest Dark",
+    "workbench.iconTheme": "material-icon-theme",
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "cmake.configureOnOpen": false,
+    "editor.minimap.enabled": false,
+    "background.editorBackgrounds": [
+        "a:/Pictures/340962.jpg"
+    ],
+    "background.backgroundOpacity": [
+        0.9,
+        0.9,
+        0.9,
+        0.9
+    ],
+    "extensions.experimental.affinity": {
+        "asvetliakov.vscode-neovim": 1
+    },
+    "background.windowBackgrounds": [
+        "a:/Pictures/Pictures/a_pink_sunset_by_bisbiswas_dehui96-pre.jpg"
+    ],
+    "cmake.showOptionsMovedNotification": false,
+    "breadcrumbs.enabled": false,
+    "vim.leader": "space",    
+    "vim.useSystemClipboard": true,
+    "vim.insertModeKeyBindings": [
+      {
+        "before":["k","j"],
+        "after":["<Esc>", "l"]
+      },    
+    ],
+    "vim.normalModeKeyBindings": [
+    {
+      "before": [
+        "leader",
+        "w"
+      ],
+      "commands": [
+        ":w!"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "q"
+      ],
+      "commands": [
+        ":q!"
+      ]
+    },
+    {
+      "before": [
+        "leader",
+        "x"
+      ],
+      "commands": [
+        ":x!"
+      ]
+    },
+    {
+      "after": [
+        "g",
+        "g",
+        "V",
+        "G"
+      ],
+      "before": [
+        "<c-a>"
+      ]
+    },
+   {
+      "before": [
+        "<leader>",
+        "k"
+      ],
+      "commands": [
+        "editor.action.showHover"
+      ]
+    },
+    {
+      "before": [
+        "[",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.prev"
+      ]
+    },
+    {
+      "before": [
+        "]",
+        "d"
+      ],
+      "commands": [
+        "editor.action.marker.next"
+      ]
+    },
+    {
+      "before": [
+        "<leader>",
+        "c",
+        "a"
+      ],
+      "commands": [
+        "editor.action.quickFix"
+      ]
+    },
+  ],
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.fontFamily": "\"Hack Nerd Font\"",
+  "editor.fontFamily": "\"Hack Nerd Font\"",
+}
