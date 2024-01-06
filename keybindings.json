@@ -1,8 +1,19 @@
-      "key": "ctrl+cmd+j",
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "shift+j",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "shift+k",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+      "key": "ctrl+shift+j",
       "command": "workbench.action.moveEditorLeftInGroup"
     },
     {
-      "key": "ctrl+cmd+k",
+      "key": "ctrl+shift+k",
       "command": "workbench.action.moveEditorRightInGroup"
     },
     {
@@ -96,6 +107,11 @@
       {
         "key": "ctrl+t",
         "command": "terminal.focus"
+      },
+      {
+        "key": "ctrl+p",
+        "command": "-extension.vim_ctrl+p",
+        "when": "editorTextFocus && vim.active && vim.use<C-p> && !inDebugRepl || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'CommandlineInProgress' || vim.active && vim.use<C-p> && !inDebugRepl && vim.mode == 'SearchInProgressMode'"
       }
 
 ]
