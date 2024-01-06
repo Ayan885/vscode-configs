@@ -119,4 +119,6 @@
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "terminal.integrated.fontFamily": "\"Hack Nerd Font\"",
   "editor.fontFamily": "\"Hack Nerd Font\"",
+  "editor.wordWrap": "on",
+  "editor.wordWrapColumn": 70,
 }
